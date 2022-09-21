@@ -1,0 +1,21 @@
+{
+    "main": "index.js",
+    "sources": [
+        {
+            "type": "functionReturn",
+            "name": "getPassword",
+            "location": {
+                "fileName": "index.js"
+            }
+        }
+    ],
+    "sinks": [
+        {
+            "type": "functionInvocation",
+            "name": "log",
+            "location": {
+                "fileName": "index.js"
+            }
+        }
+    ]
+}
